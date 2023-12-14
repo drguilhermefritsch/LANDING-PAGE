@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@
             padding: 0;
             background-color: #f4f4f4; /* Cor de fundo suave */
             color: #333;
-            background-image: url('[sua-imagem-de-fundo.jpg'](https://fritschnunes.com/)); 
+            background-image: url('sua-imagem-de-fundo.jpg'); /* Substitua com o URL da sua imagem de fundo sugestiva para a clínica de cirurgia plástica */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -45,6 +45,11 @@
             text-decoration: none;
             color: #3498db; /* Cor de destaque azul suave */
         }
+        .profile-picture {
+            max-width: 100%;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -55,6 +60,8 @@
     </header>
     
     <section>
+        <img class="profile-picture" src="sua-foto.jpg" alt=https://fritschnunes.com/> <!-- Substitua com o URL da sua própria foto -->
+        
         <div class="social-links">
             <a href="https://api.whatsapp.com/send?phone=5551998877009" target="_blank">WhatsApp</a>
             <a href="https://www.instagram.com/drguilherme.fritsch" target="_blank">Instagram</a>
