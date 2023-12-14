@@ -11,7 +11,7 @@
             padding: 0;
             background-color: #f4f4f4; /* Cor de fundo suave */
             color: #333;
-            background-image: url('sua-imagem-de-fundo.jpg'); /* Substitua com a URL da sua imagem de fundo */
+            background-image: url('[sua-imagem-de-fundo.jpg'](https://fritschnunes.com/)); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -62,4 +62,3 @@
     </section>
 </body>
 </html>
-
