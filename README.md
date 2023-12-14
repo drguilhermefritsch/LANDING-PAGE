@@ -1,28 +1,32 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica de Cirurgia Plástica - Dr. Guilherme Fritsch</title>
+    <title>Clínica de Cirurgia Plástica</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2; /* Cor de fundo semelhante ao site www.fritschnunes.com */
+            background-color: #f4f4f4; /* Cor de fundo suave */
             color: #333;
+            background-image: url('sua-imagem-de-fundo.jpg'); /* Substitua com a URL da sua imagem de fundo */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
         header {
             text-align: center;
             padding: 20px;
-            background-color: #2c3e50; /* Cor principal do site www.fritschnunes.com */
-            color: #ecf0f1;
+            background-color: #3498db; /* Cor principal azul suave */
+            color: #ffffff;
         }
         section {
             max-width: 600px;
             margin: auto;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
             border-radius: 5px;
@@ -39,13 +43,14 @@
             display: inline-block;
             margin: 0 10px;
             text-decoration: none;
-            color: #3498db; /* Cor de destaque do site www.fritschnunes.com */
+            color: #3498db; /* Cor de destaque azul suave */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Olá, seja bem-vindo à nossa central de agendamento.</h1>
+        <h1>Clínica de Cirurgia Plástica</h1>
+        <p>Olá, seja bem-vindo à nossa central de agendamento.</p>
         <p>Basta clicar nos links de contato abaixo e você será atendido(a) pela nossa equipe.</p>
     </header>
     
@@ -57,3 +62,4 @@
     </section>
 </body>
 </html>
+
