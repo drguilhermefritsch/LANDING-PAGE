@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
+            background-color: #f2f2f2; /* Cor de fundo semelhante ao site www.fritschnunes.com */
             color: #333;
         }
         header {
@@ -26,12 +26,14 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
             border-radius: 5px;
+            text-align: center;
         }
         .welcome-text {
             margin-bottom: 20px;
         }
         .social-links {
             text-align: center;
+            margin-top: 20px;
         }
         .social-links a {
             display: inline-block;
@@ -50,7 +52,6 @@
     <section>
         <div class="social-links">
             <a href="https://api.whatsapp.com/send?phone=5551998877009" target="_blank">WhatsApp</a>
-            <a href="http://www.fritschnunes.com" target="_blank">Site Oficial</a>
             <a href="https://www.instagram.com/drguilherme.fritsch" target="_blank">Instagram</a>
         </div>
     </section>
