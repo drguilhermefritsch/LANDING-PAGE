@@ -27,30 +27,10 @@
             margin-top: 20px;
             border-radius: 5px;
         }
-        form {
-            display: grid;
-            grid-gap: 10px;
-        }
-        label {
-            font-weight: bold;
-        }
-        input, textarea, select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
-        button {
-            background-color: #e74c3c; /* Cor de destaque do site www.fritschnunes.com */
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+        .welcome-text {
+            margin-bottom: 20px;
         }
         .social-links {
-            margin-top: 20px;
             text-align: center;
         }
         .social-links a {
@@ -63,27 +43,11 @@
 </head>
 <body>
     <header>
-        <h1>Clínica de Cirurgia Plástica - Dr. Guilherme Fritsch</h1>
-        <p>Agende sua consulta conosco!</p>
+        <h1>Olá, seja bem-vindo à nossa central de agendamento.</h1>
+        <p>Basta clicar nos links de contato abaixo e você será atendido(a) pela nossa equipe.</p>
     </header>
     
     <section>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
-
-            <button type="submit">Agendar Consulta</button>
-        </form>
-
         <div class="social-links">
             <a href="https://api.whatsapp.com/send?phone=5551998877009" target="_blank">WhatsApp</a>
             <a href="http://www.fritschnunes.com" target="_blank">Site Oficial</a>
